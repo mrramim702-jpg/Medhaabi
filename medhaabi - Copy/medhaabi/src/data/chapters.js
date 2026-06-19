@@ -1,0 +1,73 @@
+export const SUBJECTS = [
+  { id: 'bangla',    name: 'বাংলা',         icon: '📖' },
+  { id: 'english',   name: 'ইংরেজি',        icon: '🔤' },
+  { id: 'math',      name: 'গণিত',          icon: '🔢' },
+  { id: 'physics',   name: 'পদার্থবিজ্ঞান', icon: '⚛️' },
+  { id: 'chemistry', name: 'রসায়ন',         icon: '🧪' },
+  { id: 'biology',   name: 'জীববিজ্ঞান',    icon: '🧬' },
+  { id: 'history',   name: 'ইতিহাস',        icon: '🏛️' },
+  { id: 'ict',       name: 'তথ্যপ্রযুক্তি', icon: '💻' },
+];
+
+export const IMPORTANT_CHAPTERS = {
+  math: [
+    { name: 'বীজগাণিতিক রাশি', percent: 22, color: '#6C63FF' },
+    { name: 'ত্রিকোণমিতি',     percent: 18, color: '#FF6584' },
+    { name: 'জ্যামিতি',        percent: 15, color: '#43C6AC' },
+    { name: 'সমীকরণ',          percent: 14, color: '#F7971E' },
+    { name: 'পরিসংখ্যান',      percent: 12, color: '#12c2e9' },
+    { name: 'অন্যান্য',        percent: 19, color: '#888'    },
+  ],
+  physics: [
+    { name: 'গতিবিজ্ঞান',      percent: 20, color: '#6C63FF' },
+    { name: 'তরঙ্গ ও শব্দ',    percent: 17, color: '#FF6584' },
+    { name: 'তাপগতিবিদ্যা',    percent: 15, color: '#43C6AC' },
+    { name: 'আলোকবিজ্ঞান',     percent: 14, color: '#F7971E' },
+    { name: 'বিদ্যুৎ ও চুম্বক',percent: 18, color: '#12c2e9' },
+    { name: 'অন্যান্য',        percent: 16, color: '#888'    },
+  ],
+  chemistry: [
+    { name: 'পর্যায় সারণি',    percent: 20, color: '#6C63FF' },
+    { name: 'রাসায়নিক বন্ধন', percent: 18, color: '#FF6584' },
+    { name: 'জৈব রসায়ন',       percent: 16, color: '#43C6AC' },
+    { name: 'অম্ল ও ক্ষার',    percent: 15, color: '#F7971E' },
+    { name: 'তড়িৎ রসায়ন',     percent: 13, color: '#12c2e9' },
+    { name: 'অন্যান্য',        percent: 18, color: '#888'    },
+  ],
+  biology: [
+    { name: 'কোষ বিভাজন',      percent: 18, color: '#6C63FF' },
+    { name: 'জিনতত্ত্ব',       percent: 20, color: '#FF6584' },
+    { name: 'উদ্ভিদবিজ্ঞান',   percent: 16, color: '#43C6AC' },
+    { name: 'প্রাণিবিজ্ঞান',   percent: 15, color: '#F7971E' },
+    { name: 'বাস্তুতন্ত্র',    percent: 13, color: '#12c2e9' },
+    { name: 'অন্যান্য',        percent: 18, color: '#888'    },
+  ],
+  bangla: [
+    { name: 'গল্প ও উপন্যাস',  percent: 25, color: '#6C63FF' },
+    { name: 'কবিতা',           percent: 22, color: '#FF6584' },
+    { name: 'ব্যাকরণ',         percent: 20, color: '#43C6AC' },
+    { name: 'রচনা',            percent: 18, color: '#F7971E' },
+    { name: 'অন্যান্য',        percent: 15, color: '#888'    },
+  ],
+  english: [
+    { name: 'Grammar',              percent: 28, color: '#6C63FF' },
+    { name: 'Reading Comprehension',percent: 22, color: '#FF6584' },
+    { name: 'Composition',          percent: 20, color: '#43C6AC' },
+    { name: 'Vocabulary',           percent: 16, color: '#F7971E' },
+    { name: 'Others',               percent: 14, color: '#888'    },
+  ],
+  history: [
+    { name: 'মুক্তিযুদ্ধ',     percent: 30, color: '#6C63FF' },
+    { name: 'মোঘল সাম্রাজ্য',  percent: 20, color: '#FF6584' },
+    { name: 'ব্রিটিশ শাসন',    percent: 18, color: '#43C6AC' },
+    { name: 'প্রাচীন ইতিহাস',  percent: 15, color: '#F7971E' },
+    { name: 'অন্যান্য',        percent: 17, color: '#888'    },
+  ],
+  ict: [
+    { name: 'ডেটাবেজ',         percent: 20, color: '#6C63FF' },
+    { name: 'প্রোগ্রামিং',     percent: 25, color: '#FF6584' },
+    { name: 'নেটওয়ার্কিং',    percent: 18, color: '#43C6AC' },
+    { name: 'তথ্য নিরাপত্তা',  percent: 15, color: '#F7971E' },
+    { name: 'অন্যান্য',        percent: 22, color: '#888'    },
+  ],
+};
